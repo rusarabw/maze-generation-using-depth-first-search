@@ -77,4 +77,5 @@ while running:
     pygame.display.flip()
     pygame.time.delay(50)
 
+pygame.image.save(screen, "screenshot.jpeg")
 pygame.quit()
