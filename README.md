@@ -6,12 +6,12 @@ Maze should be a grid of 20 rows by 20 columns. DFS algorithm is used to generat
 
 ## How it Works?
 
-* Initialize a grid with cells each having walls in all 4 directions.
+* Initialize a grid with cells each having walls in all four directions.
 * Start from the starting cell and randomly select an unvisited neighbor.
 * Visit the unvisited neighbor while removing the wall between the current node and the neighbor.
-* Push the neighbor in to a stack.
+* Push the neighbor into a stack.
 * Iterate the process until there are no unvisited neighbors.
-* If there are no invisited neighbors, pop the stack and set the popped cell as the current cell.
+* If there are no unvisited neighbors, pop the stack and set the popped cell as the current cell.
 * Iterate this entire process until the stack is empty.
 
 ## How To Use
